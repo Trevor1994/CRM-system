@@ -1,3 +1,8 @@
-
+/*Variables.scss*/
+/*Variables*/
+html {
+  font-family: verdana;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
 
 /*# sourceMappingURL=application.css.map */
