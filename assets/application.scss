@@ -9,6 +9,14 @@ html {
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%;
 }
+
+body {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #fff;
+}
+
 /* main header */
 .navbar-header {
   display: inline-block;
@@ -112,7 +120,7 @@ nav {
     box-shadow: 0 6px 12px rgba(0,0,0,0.175);
     background-clip: padding-box;
 }
-
+/* Main heading for all pages */
 h1 {
   font-family: $main-font;
   font-weight: bold;
@@ -121,4 +129,46 @@ h1 {
   color: rgb(255, 252, 254);
   margin-top: -15px;
   margin-bottom: 30px;
+}
+
+/* syling for the tables */
+table {
+    display: table;
+    border-collapse: separate;
+      td, th {
+      display: table-cell;
+      vertical-align: inherit;
+      border-spacing: 2px;
+      border-bottom: 1px solid #474e56;
+      }
+}
+
+.pull-right {
+    float: right;
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgba(200, 158, 103, 0.9);
+    margin-right: 35px;
+    border-color: #fff;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
