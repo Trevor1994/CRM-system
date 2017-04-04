@@ -1,5 +1,6 @@
 /*Variables.scss*/
 /*Variables*/
+/* disabled the button as it was not necessary to have in the header*/
 button {
   display: none; }
 
@@ -8,14 +9,15 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
-/* main title */
+/* main header */
 .navbar-header {
   display: inline-block;
   font-weight: bold;
   float: left;
-  margin-top: 14px; }
+  margin-top: 14px;
+  /* CRM title */ }
   .navbar-header .navbar-brand {
-    padding: 20px 20px;
+    padding: 30px;
     font-size: 25px;
     line-height: 20px;
     height: 40px;
@@ -23,16 +25,19 @@ html {
     text-decoration: none;
     margin-right: 40px; }
 
+/* Colors for the header */
 .navbar-default {
   background-color: #474e56;
   border-color: #f8f8f8; }
 
+/* additional styling on the header */
 .navbar {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent; }
 
+/* focuses on the navigation menu elements */
 nav .navbar-nav {
   list-style-type: none;
   position: relative;
@@ -48,6 +53,7 @@ nav .navbar-nav {
   nav .navbar-nav a:hover {
     color: #dfd2d2; }
 
+/* drop-down arrow next to account field */
 .caret {
   display: inline-block;
   width: 0;
@@ -59,6 +65,7 @@ nav .navbar-nav {
   border-right: 4px solid transparent;
   border-left: 4px solid transparent; }
 
+/* floats the account field into the right side of the page */
 .navbar-right {
   float: right; }
 
@@ -90,5 +97,14 @@ nav .navbar-nav {
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box; }
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(200, 158, 103, 0.9);
+  color: #fffcfe;
+  margin-top: -15px;
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=application.css.map */
