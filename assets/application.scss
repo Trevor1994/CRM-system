@@ -1,8 +1,108 @@
 /*Variables.scss*/
 @import "variables";
 
+button {display: none;}
+
 html {
   font-family: $main-font;
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%;
+}
+/* main title */
+.navbar-header {
+  display: inline-block;
+  font-weight: bold;
+  float: left;
+  margin-top: 14px;
+  .navbar-brand {
+    padding: 20px 20px;
+    font-size: 25px;
+    line-height: 20px;
+    height: 40px;
+    color: rgb(252, 255, 255);
+    text-decoration: none;
+    margin-right: 40px;
+  }
+}
+
+.navbar-default{
+  background-color: #474e56;
+  border-color: #f8f8f8;
+
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+nav {
+  .navbar-nav {
+  list-style-type: none;
+  position: relative;
+  margin: 0px;
+  float: left;
+  margin-right: 160px;
+      li {
+      margin: 15px 30px;
+      display: inline-block;
+      position: relative;
+    }
+      li a {
+        color: rgb(255, 255, 255);
+      }
+      a:hover {
+        color: rgb(223, 210, 210);
+      }
+  }
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #e7e7e7;
+    color: #555;
+}
+
+.navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    background-clip: padding-box;
 }
